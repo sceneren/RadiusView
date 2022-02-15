@@ -1,0 +1,5 @@
+jdk:
+  - openjdk11
+install:
+  - ./gradlew :radius:build :radius:publishToMavenLocal
+  - find . -name "*.aar"
